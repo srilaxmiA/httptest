@@ -48,7 +48,7 @@ public class App
                 }
 
 
-                System.out.println("response map :: " + responseMap);
+                //System.out.println("response map :: " + responseMap);
                 Gson gson = new Gson();
                 String json = gson.toJson(responseMap);
                 System.out.println(" json string :: " + json);
